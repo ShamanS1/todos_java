@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: springboot-app
-          image: shaman348/springboot-app-extapi:latest
+          image: shaman348/springboot-app-extapi
           imagePullPolicy: Always
           ports:
             - containerPort: 9090
